@@ -8,7 +8,7 @@
         "form",
         "form-builder",
         "tailwind",
-        "tailwind 2",
+        "tailwind 2"
     ],
     "homepage": "https://github.com/stfr/laravel-form-builder-tailwind2",
     "license": "MIT",
