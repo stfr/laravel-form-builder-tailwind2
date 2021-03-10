@@ -3,51 +3,51 @@
 return [
 
     'defaults' => [
-        'wrapper_class'       => 'form-group row',
-        'wrapper_error_class' => '',
-        'label_class'         => 'col-lg-2 col-form-label text-lg-right',
-        'field_class'         => 'form-control',
-        'field_error_class'   => 'is-invalid',
-        'help_block_class'    => 'form-text text-muted',
-        'error_class'         => 'invalid-feedback',
-        'required_class'      => 'required',
+        'wrapper_class'       => '--defaults.wrapper_class',
+        'wrapper_error_class' => '--defaults.wrapper_error_class',
+        'label_class'         => 'block font-medium text-sm text-gray-700',
+        'field_class'         => 'rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block mt-1 w-full',
+        'field_error_class'   => '--defaults.field_error_class',
+        'help_block_class'    => '--defaults.help_block_class',
+        'error_class'         => '--defaults.error_class',
+        'required_class'      => '--defaults.required',
 
         'static' => [
-            'field_class' => 'form-control-plaintext',
+            'field_class' => '--defaults.static.field_class',
         ],
 
         'checkbox' => [
-            'wrapper_class' => 'form-check',
-            'field_class'   => 'form-check-input',
-            'label_class'   => 'form-check-label',
+            'wrapper_class' => 'block',
+            'field_class'   => 'rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50',
+            'label_class'   => 'inline-flex items-center',
 
             'choice_options' => [
-                'wrapper_class' => 'custom-control custom-checkbox',
-                'label_class'   => 'custom-control-label',
-                'field_class'   => 'custom-control-input',
+                'wrapper_class' => '--defaults.checkbox.choice_options.wrapper_class',
+                'label_class'   => '--defaults.checkbox.choice_options.label_class',
+                'field_class'   => '--defaults.checkbox.choice_options.field_class',
             ],
         ],
 
         'radio' => [
-            'wrapper_class' => 'form-check',
-            'field_class'   => 'form-check-input',
-            'label_class'   => 'form-check-label',
+            'wrapper_class' => '--defaults.radio.wrapper_class',
+            'field_class'   => '--defaults.radio.field_class',
+            'label_class'   => '--defaults.radio.label_class',
 
             'choice_options' => [
-                'wrapper_class' => 'custom-control custom-radio',
-                'label_class'   => 'custom-control-label',
-                'field_class'   => 'custom-control-input',
+                'wrapper_class' => '--defaults.radio.choice_options.wrapper_class',
+                'label_class'   => '--defaults.radio.choice_options.label_class',
+                'field_class'   => '--defaults.radio.choice_options.field_class',
             ],
         ],
 
         'submit' => [
-            'wrapper_class' => 'form-group row',
-            'field_class'   => 'btn btn-primary',
+            'wrapper_class' => '',
+            'field_class'   => 'inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150 ml-3',
         ],
 
         'reset' => [
-            'wrapper_class' => 'form-group row',
-            'field_class'   => 'btn btn-primary',
+            'wrapper_class' => '',
+            'field_class'   => 'inline-flex items-center px-4 py-2 bg-gray-400 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-300 active:bg-gray-600 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150 ml-3',
         ],
     ],
 

@@ -9,9 +9,21 @@
 <?php endif; ?>
 
 <?php if ($showField): ?>
+    <?php if ($options['innerWrapper'] ?? true): ?>
+        <?php if ($showLabel && $options['label'] !== false && $options['label_show']): ?>
+            <div class="">
+        <?php else: ?>
+            <div class="">
+        <?php endif; ?>
+    <?php endif; ?>
+
     <<?= $options['tag'] ?> <?= $options['elemAttrs'] ?>><?= e($options['value']) ?></<?= $options['tag'] ?>>
 
     <?php include 'help_block.php' ?>
+
+    <?php if ($options['innerWrapper'] ?? true): ?>
+    </div>
+    <?php endif; ?>
 <?php endif; ?>
 
 

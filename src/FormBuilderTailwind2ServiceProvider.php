@@ -17,7 +17,7 @@ class FormBuilderTailwind2ServiceProvider extends ServiceProvider
     }
 
     /**
-     * Bootstrap services.
+     * Tailwind services.
      *
      * @return void
      */
