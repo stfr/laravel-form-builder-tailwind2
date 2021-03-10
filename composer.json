@@ -1,0 +1,36 @@
+{
+    "name": "stfr/laravel-form-builder-tailwind2",
+    "type": "library",
+    "description": "The laravel-form-builder's Tailwind 2 template.",
+    "keywords": [
+        "stfr",
+        "laravel-form-builder",
+        "form",
+        "form-builder",
+        "tailwind",
+        "tailwind 2",
+    ],
+    "homepage": "https://github.com/stfr/laravel-form-builder-tailwind2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephane Rouille",
+            "email": "steph.rouille@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stfr\\LaravelFormBuilderTailwind2\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stfr\\LaravelFormBuilderTailwind2\\FormBuilderTailwind2ServiceProvider"
+            ]
+        }
+    }
+}
