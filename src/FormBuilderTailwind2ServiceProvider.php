@@ -1,6 +1,6 @@
 <?php
 
-namespace Stfr\LaravelFormBuilderTailwind2;
+namespace stfr\LaravelFormBuilderTailwind2;
 
 use Illuminate\Support\ServiceProvider;
 
