@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Stfr\\LaravelFormBuilderTailwind2\\": "src"
+            "stfr\\LaravelFormBuilderTailwind2\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Stfr\\LaravelFormBuilderTailwind2\\FormBuilderTailwind2ServiceProvider"
+                "stfr\\LaravelFormBuilderTailwind2\\FormBuilderTailwind2ServiceProvider"
             ]
         }
     }
